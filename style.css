@@ -85,13 +85,13 @@ a {
 
 .projects-section {
   text-align: center;
-  padding: 10rem 2rem;
+  padding: 7rem 2rem 10rem 2rem;
   background: var(--main-blue);
 }
 
 .projects-section-header {
   max-width: 640px;
-  margin: 0 auto 6rem auto;
+  margin: 0 auto 4rem auto;
   border-bottom: 0.2rem solid var(--main-white);
 }
 
@@ -144,6 +144,16 @@ a {
 
 .btn-show-all:hover {
   background: var(--main-red);
+}
+
+.btn-show-all:hover > i {
+  transform: translateX(2px);
+}
+
+.btn-show-all > i {
+  margin-left: 6px;
+  transform: translateX(0);
+  transition: 0.3s;
 }
 
 .contact-section {
